@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+	max-width: 876px;
+	margin: auto;
+}
+
+h1 {
+	 font-size: 78px;
+	 text-align: center;
+}
+
+.logo {
+	vertical-align: middle;
+	padding: -5px;
+}
+
+.navigation {
+	display: inline-block;
+	width: 876px;
+	position: sticky;
+	padding: 15px;
+	background-color: rgb(116, 129, 66);
+	top: 0;
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 25px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+a:hover {
+	background-color: #4CAF50;
+}
+
+
+.headbox section {
+	display: inline-block;
+	width: 438px;
+	padding: 150px 0 50px 0;
+}
+
+.headbox img {
+	vertical-align: 
+}
+
+button {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.top-content section {
+	display: inline-block;
+	width: 436px;
+	padding: 20px; 
+}
+
+
+
+.middleimage {
+	width: 800px;
+	padding: 100px 0;
+}
+
+.bottom-content section {
+	display: inline-block;
+	width: 289px;
+	padding: 20px 0px 20px 0;
+
+}
+
+hr {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+footer {
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+}
+
